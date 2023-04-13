@@ -50,7 +50,7 @@ class GtfsArchive
     /** @var null|string $archiveETag */
     private static $archiveETag = null;
 
-    private function __construct(string $fileRoot)
+    public function __construct(string $fileRoot)
     {
         $this->fileRoot = $fileRoot;
     }
